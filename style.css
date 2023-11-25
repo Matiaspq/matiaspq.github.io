@@ -1,0 +1,274 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255) !important;
+    border-bottom: 1px solid #87CEEB;
+}
+
+#logo{
+    width: 100px;
+}
+
+#logo2{
+    width: 200px;
+}
+
+.nav-link{
+    font-size: 15px;
+    border-right: 1px black solid;
+}
+
+.nav-link:hover{
+    background-color: #87CEEB;
+    font-weight: bolder;
+    transition: font-weight 0.2s ease;
+    font-size: 1rem;
+}
+
+.contacto{
+    border: none;
+}
+
+.reserva{
+    background-color: black;
+    color: white;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.raya-centro {
+    position: relative;
+    width: 100%;
+    /* margin-top: 30px; */
+}
+
+.raya {
+    width: 30%;
+    height: 2px;
+    background-color: #87CEEB;
+    margin: 0 auto;
+}
+
+.col:hover .card {
+    transform: scale(1.10);
+    transition: transform 1s ease;
+    background-color: #87CEEB;
+}
+
+.card{
+    background-color: #dcdcdc;
+    border-color: #dcdcdc;
+}
+
+.tarjeta{
+    border-color: #000000;
+}
+
+.card-img-top{
+    height: 300px;
+}
+
+.card-footer{
+    background-color: #87CEEB;
+}
+
+.img-thumbnail{
+    border: 1px solid blue;
+}
+
+.boton{
+    color: black;
+}
+
+.boton2{
+    background-color: #87CEEB;
+    color: black;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: #d3d3d3;
+}
+
+.boton2:hover{
+    background-color: #179fd4;
+}
+
+.fondo{
+    background-color: black;
+}
+
+.social{
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 35px;
+    color: white;
+}
+
+.bi-whatsapp:hover{
+    color: #25D366;
+}
+
+.bi-instagram:hover{
+    color: #F56040;
+}
+
+.cuadro2{
+    border: 2px #87CEEB solid;
+    color: black;
+    background-color: #dcdcdce8;
+    position: absolute;
+    top: 50%;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cuadro{
+    height: 310px;
+    background-image: url(img/exterior.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.borde{
+    border: 2px #87CEEB solid;
+    background-color: #dcdcdc;
+}
+
+.borde2{
+    border-right: 2px #87CEEB double;
+    height: 200px;
+}
+
+.margen{
+    margin-top: 8rem;
+}
+
+.margen-h{
+    margin-top: 4rem;
+}
+
+.margen-h4{
+    margin-top: 3rem;
+}
+
+.foto{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.margen-foto{
+    margin-top: 45px;
+}
+
+.margen-foto2{
+    margin-top: 30px;
+}
+
+.icono{
+    width: 45px;
+}
+
+.icono-inicio{
+    margin-top: 30px;
+}
+
+.fa-person-swimming{
+    font-size: 90px;
+}
+
+.form-control{
+    border: 1px #87CEEB solid;
+    background-color: #87cfeb5b;
+}
+
+.modal-content{
+    border-color: #87CEEB;
+}
+
+.modal-header{
+    border-color: #87CEEB;
+}
+
+.modal-footer{
+    border-color: #87CEEB;
+}
+
+.boton3{
+    background-color: #dcdcdc;
+    color: black;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: #dcdcdc;
+}
+
+#logofooter{
+    width: 90px;
+    margin-top: 3rem;
+}
+
+@media (max-width: 576px) {
+    #logo{
+        width: 90px;
+    }
+    #logo2{
+        width: 150px;
+    }
+    .icono {
+      width: 35px;
+      margin-bottom: 40px;
+      margin-top: 20px;
+      margin-left: 7px;
+    }
+    .boton2{
+        margin-bottom: 20px;
+    }
+    .boton3{
+        margin-bottom: 20px;
+    }
+    .icono-inicio{
+        width: 60px;
+        margin-top: 45px;
+    }
+    .fa-person-swimming{
+        font-size: 30px;
+    }
+    .foto{
+        width: 45px;
+    }
+    .cuadro{
+        height: 200px;
+    }
+    .cuadro2{
+        height: 10rem;
+    }
+    .navbar-toggler{
+        background-color: #87CEEB;
+    }
+    .social{
+        font-size: 30px;
+        margin-left: 15px;
+    }
+}
+@media (min-width: 1440px){
+    .card-title{
+        margin-top: 3rem !important;
+    }
+    .card-text{
+        margin-top: 4rem !important;
+    }
+    .margen-h{
+        margin-top: 6rem;
+    }
+}
+    
+
