@@ -79,7 +79,9 @@ a{
 .card-footer{
     background-color: #87CEEB;
 }
-
+.formulario{
+    width: 13rem;
+}
 .img-thumbnail{
     border: 1px solid blue;
 }
