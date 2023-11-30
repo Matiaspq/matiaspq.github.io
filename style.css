@@ -192,6 +192,7 @@ a{
 .form-control{
     border: 1px #87CEEB solid;
     background-color: #87cfeb5b;
+    color:#000000;
 }
 
 .modal-content{
